@@ -21,6 +21,7 @@
     "@electron-forge/plugin-fuses": "^7.5.0",
     "@electron-forge/plugin-vite": "^7.5.0",
     "@electron/fuses": "^1.8.0",
+    "@types/pg": "^8.11.10",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
@@ -32,6 +33,7 @@
     "eslint-plugin-import": "^2.25.0",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.15",
+    "tailwindcss-react-aria-components": "^1.1.6",
     "ts-node": "^10.0.0",
     "typescript": "~4.5.4",
     "vite": "^5.0.12"
@@ -43,10 +45,18 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@monaco-editor/react": "^4.6.0",
+    "@tanstack/react-query": "^5.60.5",
+    "dotenv": "^16.4.5",
     "electron-squirrel-startup": "^1.0.1",
+    "lucide-react": "^0.460.0",
     "pg": "^8.13.1",
     "react": "^18.3.1",
+    "react-aria-components": "^1.4.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.28.0"
+    "react-router-dom": "^6.28.0",
+    "tailwind-merge": "^2.5.4",
+    "tailwind-variants": "^0.3.0",
+    "tailwindcss-animate": "^1.0.7"
   }
 }
